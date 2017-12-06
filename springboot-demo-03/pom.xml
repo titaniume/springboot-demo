@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.titaniume</groupId>
-	<artifactId>springboot-demo-3</artifactId>
+	<artifactId>springboot-demo-03</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-demo-3</name>
+	<name>springboot-demo-03</name>
 	<description>配置文件详解：YAML</description>
 
 	<parent>
