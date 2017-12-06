@@ -1,0 +1,35 @@
+#配置文件环境配置
+spring:
+  profiles:
+     active: dev
+    
+
+  jackson: 
+    date-format: yyyy-MM-dd HH:mm:ss  #时间格式化
+    time-zone: Asia/Shanghai          #时区设置
+    
+#端口
+server:
+  port: 8089
+    
+ 
+---
+spring: 
+  profiles: dev
+server:
+  port: 8080
+  
+---
+spring: 
+  profiles: prod
+server: 
+  port: 8082
+  
+
+---
+spring: 
+  profiles: test
+server: 
+  port: 8081
+  
+     
