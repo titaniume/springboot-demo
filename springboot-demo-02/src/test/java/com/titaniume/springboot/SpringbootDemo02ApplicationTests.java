@@ -17,7 +17,7 @@ import com.titaniume.springboot.controller.IndexController;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootDemo2ApplicationTests {
+public class SpringbootDemo02ApplicationTests {
 	
 	private MockMvc mvc;
 	
