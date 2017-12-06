@@ -1,0 +1,17 @@
+#32 位随机字符串
+titaniume:
+  rodmom: ${random.value}
+# 随机数 整数
+  number: ${random.int}
+#属性占位符
+  name: www.titaniume.com
+  desc: ${titaniume.name}  config file
+
+#端口配置：
+server: 
+  port=8080
+
+#时区设置
+spring: 
+  jackson:
+    time-zone=Asia/Shanghai
