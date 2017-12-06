@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.titaniume</groupId>
-	<artifactId>springboot-demo-9</artifactId>
+	<artifactId>springboot-demo-09</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-demo-9</name>
+	<name>springboot-demo-09</name>
 	<description>web应用开发-模板引擎Thymeleaf</description>
 
 	<parent>
