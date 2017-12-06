@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.titaniume</groupId>
-	<artifactId>springboot-demo-7</artifactId>
+	<artifactId>springboot-demo-07</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-demo-7</name>
+	<name>springboot-demo-07</name>
 	<description>日志配置-log4j2</description>
 
 	<parent>
