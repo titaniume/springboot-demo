@@ -22,12 +22,12 @@ import com.titaniume.springboot.util.ordinary.servlet.CustomServlet;
  *
  */
 /*@SpringBootApplication
-public class SpringbootDemo11Application_2 implements ServletContextInitializer{
+public class SpringbootDemo12Application_2 implements ServletContextInitializer{
 
 	
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootDemo11Application_2.class, args);
+		SpringApplication.run(SpringbootDemo12Application_2.class, args);
 	}
 
 	@Override

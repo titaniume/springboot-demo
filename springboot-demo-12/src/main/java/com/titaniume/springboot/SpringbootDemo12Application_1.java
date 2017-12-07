@@ -19,7 +19,7 @@ import com.titaniume.springboot.util.ordinary.servlet.CustomServlet;
  *
  */
 @SpringBootApplication
-public class SpringbootDemo11Application_1 {
+public class SpringbootDemo12Application_1 {
 
 	/*// 注册Bean ---Servlet
 	@Bean
@@ -45,6 +45,6 @@ public class SpringbootDemo11Application_1 {
 */
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootDemo11Application_1.class, args);
+		SpringApplication.run(SpringbootDemo12Application_1.class, args);
 	}
 }
