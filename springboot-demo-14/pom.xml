@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.titaniume</groupId>
-	<artifactId>springboot-demo-13</artifactId>
+	<artifactId>springboot-demo-14</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-demo-13</name>
-	<description>web应用开发-CORS 支持</description>
+	<name>springboot-demo-14</name>
+	<description>web 应用开发-文件上传</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
