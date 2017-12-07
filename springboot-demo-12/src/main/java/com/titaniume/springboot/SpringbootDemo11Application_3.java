@@ -1,0 +1,25 @@
+package com.titaniume.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+
+/**
+ * 	注册Servlet ,Filter,Listener 方法三：：在 SpringBootApplication 上使用@ServletComponentScan 注解后，直接通过@WebServlet、
+ *  @WebFilter、@WebListener 注解自动注册
+ * @author titaniume
+ * 2017年12月7日下午5:02:13
+ *
+ */
+@ServletComponentScan
+@SpringBootApplication
+public class SpringbootDemo11Application_3 {
+
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootDemo11Application_3.class, args);
+	}
+
+	
+}
