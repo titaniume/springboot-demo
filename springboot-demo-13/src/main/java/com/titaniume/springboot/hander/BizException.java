@@ -1,4 +1,4 @@
-package com.titaniume.springboot.hander;
+/*package com.titaniume.springboot.hander;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,24 +10,24 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.titaniume.springboot.controller.WebController;
 
-/**
+*//**
  * 注解定义异常处理
  * @author titaniume
  * 2017年12月7日下午2:27:06
  * 
  *
- */
+ *//*
 @ControllerAdvice
 public class BizException {
 	
 	private static final Logger Logger = LoggerFactory.getLogger(BizException.class);
-	/**
+	*//**
 	 * 统一异常处理
 	 * 
 	 * @param exception
 	 *  exception
 	 * @return
-	 */
+	 *//*
 	@ExceptionHandler({ RuntimeException.class })
 	@ResponseStatus(HttpStatus.OK)
 	public ModelAndView processException(RuntimeException exception) {
@@ -38,13 +38,13 @@ public class BizException {
 		return m;
 	}
 
-	/**
+	*//**
 	 * 统一异常处理
 	 * 
 	 * @param exception
 	 *            exception
 	 * @return
-	 */
+	 *//*
 	@ExceptionHandler({ Exception.class })
 	@ResponseStatus(HttpStatus.OK)
 	public ModelAndView processException(Exception exception) {
@@ -56,3 +56,4 @@ public class BizException {
 	}
 
 }
+*/
