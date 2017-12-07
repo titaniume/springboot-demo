@@ -11,13 +11,26 @@
 	</center>
 	
 	<script type="text/javascript" src="/webjars/jquery/2.1.4/jquery.min.js"></script>
-	
+
 	<script>
-		$(function(){
-			$('#title').click(function(){
-				alert('点击了');
+		$(function() {
+			$('#title').click(function() {
+				//alert('点击了');	
+				$.ajax({
+					url : "http://localhost:8081/api/get",
+					type : "POST",
+					data : {
+						name : "测试"
+					},
+					success : function(data, status, xhr) {
+						console.log(data);
+						alert(data.name);
+					}
+				});
+
 			});
 		})
 	</script>
+
 </body>
 </html>
