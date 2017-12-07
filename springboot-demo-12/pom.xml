@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>springboot-demo-12</name>
-	<description>web 应用开发-Servlets, Filters, listeners</description>
+	<description>web应用开发-Servlets, Filters, listeners</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
