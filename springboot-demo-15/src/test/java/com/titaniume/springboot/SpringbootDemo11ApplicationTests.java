@@ -23,18 +23,14 @@ public class SpringbootDemo11ApplicationTests {
 	private UserDao userDao;
 	
 	@Test
-	public void insert(){
+	public void insert() {
 		User user = new User();
-		int result =0;
-		for (int i = 0; i < 100; i++) {
-			user.setName("测试数据"+i);
-			user.setCreateTime(new Date());
-			 result = userDao.insert(user);
-		}
-		
+		user.setName("测试数据");
+		user.setCreateTime(new Date());
+		int result = userDao.insert(user);
 		System.out.println(result);
 	}
-	
+
 	@Test
 	public void delete(){
 		int result = userDao.deleteById(5);

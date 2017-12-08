@@ -16,9 +16,8 @@ import com.titaniume.springboot.util.base.Page;
 import com.titaniume.springboot.util.base.Sql;
 @Repository
 public class UserDaoImpl extends JdbcDaoImpl implements UserDao {
+
 	
-	
-	//springboot 1.5以上的版本jdbcTemplate不能注入，这个问题待解决
 	/*@Autowired
 	private JdbcTemplate jdbcTemplate;*/
 
