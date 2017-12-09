@@ -17,7 +17,7 @@ import com.titaniume.springboot.util.base.Page;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootDemo11ApplicationTests {
+public class SpringbootDemo15ApplicationTests {
 	
 	@Autowired
 	private UserDao userDao;

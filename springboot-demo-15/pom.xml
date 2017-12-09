@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>springboot-demo-15</name>
-	<description>SQL关系型数据库-JdbcTemplate</description>
+	<description>使用SQL关系型数据库-JdbcTemplate</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
