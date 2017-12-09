@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.titaniume</groupId>
-	<artifactId>springboot-demo-15</artifactId>
+	<artifactId>springboot-demo-16</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-demo-15</name>
-	<description>SQL关系型数据库-JdbcTemplate</description>
+	<name>springboot-demo-16</name>
+	<description>使用 SQL关系型数据库-spring-data-jpa</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
