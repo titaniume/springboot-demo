@@ -46,7 +46,7 @@ public class SpringbootDemo18ApplicationTests {
 
 	@Test
 	public void select1() {
-		UserLog result = userLogDao.findOne(3);
+		UserLog result = userLogDao.findOne(1);
 		System.out.println(result);
 	}
 }
