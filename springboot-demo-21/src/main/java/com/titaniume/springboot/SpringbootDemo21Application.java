@@ -15,11 +15,11 @@ import org.springframework.cache.annotation.EnableCaching;
 @EnableCaching   //开启缓存
 @ServletComponentScan
 @SpringBootApplication
-public class SpringbootDemo20Application {
+public class SpringbootDemo21Application {
 	
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootDemo20Application.class, args);
+		SpringApplication.run(SpringbootDemo21Application.class, args);
 	}
 
 	
