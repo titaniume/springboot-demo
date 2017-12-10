@@ -17,7 +17,7 @@ import com.titaniume.springboot.bean.UserLog;
  */
 public interface UserLogMongoDao extends MongoRepository<UserLog, Integer> {
 	
-	UserLog findById(int id);
+	UserLog findById(Integer id);
 	
 	List<UserLog> findByUserNameAndUserIp(String name, String ip);
 	

@@ -15,9 +15,7 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.domain.Sort.Order;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.titaniume.springboot.bean.User;
 import com.titaniume.springboot.bean.UserLog;
-import com.titaniume.springboot.component.TitaniumeMongodbComponent;
 import com.titaniume.springboot.dao.UserLogMongoDao;
 
 
