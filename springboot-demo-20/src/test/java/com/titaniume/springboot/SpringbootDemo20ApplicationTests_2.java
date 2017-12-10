@@ -40,8 +40,8 @@ public class SpringbootDemo20ApplicationTests_2 {
 	@Test
 	public void insert() {
 		UserLog user = new UserLog();
-		user.setId(5);
-		user.setUserName("abc2");
+		user.setId(9);
+		user.setUserName("99999");
 		user.setUserIp("127.0.0.3");
 		user.setCreateTime(new Date());
 		userLogMongoDao.save(user);
