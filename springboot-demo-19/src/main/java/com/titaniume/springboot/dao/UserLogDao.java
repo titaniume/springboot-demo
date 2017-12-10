@@ -1,7 +1,4 @@
-/**
- * titaniume
- * 2017年12月9日上午11:23:39
- */
+
 package com.titaniume.springboot.dao;
 
 import java.util.List;
@@ -31,7 +28,7 @@ public interface UserLogDao extends JpaRepository<UserLog, Integer> {
 	 * @param pageable 
 	 * @return
 	 */
-	UserLog findById(int id);
+	UserLog findById(Integer id);
 	
 	List<UserLog> findByUserNameAndUserIp(String name, String ip);
 	
