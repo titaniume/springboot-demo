@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.titaniume</groupId>
-	<artifactId>springboot-demo-21</artifactId>
+	<artifactId>springboot-demo-22</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-demo-21</name>
-	<description>使用 Caching-EhCache</description>
+	<name>springboot-demo-22</name>
+	<description>使用 Caching-Redis</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -69,7 +69,7 @@
 			<groupId>net.sf.ehcache</groupId>
 			<artifactId>ehcache</artifactId>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
