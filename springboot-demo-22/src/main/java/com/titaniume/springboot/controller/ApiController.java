@@ -63,7 +63,7 @@ public class ApiController {
 	 * 2,打开redis-cli 
 	 * 	 查看是否有keys，有就清空 
 	 * 	命令: 查看 keys * 
-	 * 		  清空 flush
+	 * 		  清空 flushdb
 	 * 
 	 * 3,再次访问http://127.0.0.1:8080/api/select 
 	 * 第一次是查不到，所有查数据库
