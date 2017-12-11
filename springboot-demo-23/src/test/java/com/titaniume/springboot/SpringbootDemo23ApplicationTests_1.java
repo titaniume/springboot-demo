@@ -20,7 +20,7 @@ import com.titaniume.springboot.component.TitaniumeJmsComponent;
 @SpringBootTest
 public class SpringbootDemo23ApplicationTests_1 {
 
-	
+	//要先运行SpringbootDemo23Application测试才有效果
 	@Autowired
 	TitaniumeJmsComponent titaniumeJmsComponent;
 	
