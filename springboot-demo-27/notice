@@ -1,0 +1,9 @@
+	
+	首先配置文件:spring.session.store-type=redis
+	1,springboot-demo-27访问:http://127.0.0.1:8081/web/index
+	2,springboot-demo-28访问:http://127.0.0.1:8080/web/index
+	
+	发现2个应用的sessionId是一样的，这是redis的原因
+	
+	把springboot-demo-27的:spring.session.store-type=redis 改为:spring.session.store-type=none
+	则springboot-demo-27的sesionId改变了,而springboot-demo-28的还是原来的那个Id
