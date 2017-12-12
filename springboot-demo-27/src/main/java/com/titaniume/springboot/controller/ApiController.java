@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sun.mail.handlers.text_html;
 import com.titaniume.springboot.bean.UserLog;
 import com.titaniume.springboot.cache.TitaniumeUserLogCache;
 import com.titaniume.springboot.component.TitaniumeJavaMailComponent;
