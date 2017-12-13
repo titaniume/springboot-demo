@@ -1,0 +1,5 @@
+
+	基于注解的springboot整合mybatis
+	1.写入bean
+	2.写入Mapper
+	3.测试
