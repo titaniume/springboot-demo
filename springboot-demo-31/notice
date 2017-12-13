@@ -1,0 +1,6 @@
+
+	基于xml的springboot整合mybatis
+	1.写入bean
+	2.写入UserMapper
+	3.配置mapper映射路径
+	3.测试
