@@ -27,4 +27,8 @@ public class WebController {
 	public String error(){
 		throw new RuntimeException("测试异常!");
 	}
+
+	public static Logger getLogger() {
+		return Logger;
+	}
 }
