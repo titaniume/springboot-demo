@@ -30,3 +30,7 @@ springboot 各个知识点总结
 26. 发送邮件-使用模板邮件并实现多账号轮询发送：https://github.com/titaniume/springboot-demo/tree/master/springboot-demo-26
 27. 使用Spring Session实现集群-redis：https://github.com/titaniume/springboot-demo/tree/master/springboot-demo-27
 28. 使用Spring Session实现集群-redis：https://github.com/titaniume/springboot-demo/tree/master/springboot-demo-28
+29. SpringBoot集成 mybatis:注解方式 https://github.com/titaniume/springboot-demo/tree/master/springboot-demo-29
+30. SpringBoot集成 mybatis:xml方式 https://github.com/titaniume/springboot-demo/tree/master/springboot-demo-30
+31. SpringBoot集成Druid https://github.com/titaniume/springboot-demo/tree/master/springboot-demo-31
+32. SpringBoot集成Swagger https://github.com/titaniume/springboot-demo/tree/master/springboot-demo-32
